@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RetryFailedTestcaseSuite" verbose="1">
+	
+	<listeners>
+	<listener class-name="com.qa.Analyzer.MyTransformer"></listener>
+	</listeners>
+	
+	
+  <test name="RetryMutilplefailedTestcases">
+  <classes>
+		 
+		   <class name="com.qa.testcases.LandingPageTest"/>
+		  
+	
+		  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="115.508" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\BANADDC01"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="ROOT_BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://10.68.110.10:8081/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="SAPLOGON_INI_FILE" value="C:\windows\saplogon.ini"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="SNC_LIB_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="USERDOMAIN" value="GLOBAL"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="JOB_NAME" value="ProgressProject"/>
+    <property name="COMPUTERNAME" value="BNGLT-9V9P882"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SNC_LIB" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="user.name" value="SLANKEGO"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="=E:" value="E:\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\SLANKEGO\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://10.68.110.10:8081/job/ProgressProject/9/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-ProgressProject-9"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\SLANKEGO\.jenkins\war\WEB-INF\lib\remoting-3.28.jar C:\Users\SLANKEGO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\SLANKEGO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 62456"/>
+    <property name="HUDSON_URL" value="http://10.68.110.10:8081/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="f9175411af69a168"/>
+    <property name="=D:" value="D:\"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\SLANKEGO\Desktop\Automation\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\SLANKEGO\AppData\Local\Microsoft\WindowsApps;C:\Users\SLANKEGO\AppData\Local\Programs\Git\cmd;C:\Users\SLANKEGO\AppData\Local\GitHubDesktop\bin;C:\Users\SLANKEGO\AppData\Local\atom\bin"/>
+    <property name="java.io.tmpdir" value="C:\Users\SLANKEGO\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\SLANKEGO\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://10.68.110.10:8081/job/ProgressProject/9/"/>
+    <property name="M2_HOME" value="C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="=C:" value="C:\Users\SLANKEGO\Desktop\Automation\Jenkins"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="f9175411af69a168"/>
+    <property name="MAVEN_HOME" value="C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\SLANKEGO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\SLANKEGO"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="9"/>
+    <property name="maven3.interceptor" value="C:\Users\SLANKEGO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\SLANKEGO\Desktop\Automation\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\SLANKEGO\AppData\Local\Microsoft\WindowsApps;C:\Users\SLANKEGO\AppData\Local\Programs\Git\cmd;C:\Users\SLANKEGO\AppData\Local\GitHubDesktop\bin;C:\Users\SLANKEGO\AppData\Local\atom\bin;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="Progress"/>
+    <property name="POM_ARTIFACTID" value="Progress"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://10.68.110.10:8081/job/ProgressProject/"/>
+    <property name="SSF_LIBRARY_PATH" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="RUN_DISPLAY_URL" value="http://10.68.110.10:8081/job/ProgressProject/9/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\SLANKEGO\.jenkins"/>
+    <property name="BUILD_ID" value="9"/>
+    <property name="TEMP" value="C:\Users\SLANKEGO\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\SLANKEGO\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="GLOBAL"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_191"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\SLANKEGO"/>
+    <property name="JOB_DISPLAY_URL" value="http://10.68.110.10:8081/job/ProgressProject/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\SLANKEGO"/>
+    <property name="USERNAME" value="SLANKEGO"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="GLOBAL.SIAL.COM"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\SLANKEGO\Desktop\Git_UpdatedCode\Progress"/>
+    <property name="maven.conf" value="C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\SLANKEGO\AppData\Local\Temp"/>
+    <property name="SSF_LIBRARY_PATH_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.class.path" value="C:\Users\SLANKEGO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="key1" value="value"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\SLANKEGO\.jenkins\workspace\ProgressProject"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="ROOT_BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_191/bin"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="user.country" value="IN"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\SLANKEGO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="JOB_BASE_NAME" value="ProgressProject"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Progress"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="verifyHomePageTitleTest" classname="com.qa.testcases.LandingPageTest" time="0.027"/>
+  <testcase name="verifyMerckLogoTest" classname="com.qa.testcases.LandingPageTest" time="80.187">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;navbar-brandsttt&apos;]&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;BNGLT-9V9P882&apos;, ip: &apos;10.68.110.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\SLANKEGO\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62578}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}&#10;Session ID: c5b378a388ff3f55a98381cbd673f6e2&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;navbar-brandsttt&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='navbar-brandsttt']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BNGLT-9V9P882', ip: '10.68.110.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\SLANKEGO\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62578}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c5b378a388ff3f55a98381cbd673f6e2
+*** Element info: {Using=xpath, value=//span[@class='navbar-brandsttt']}
+	at com.qa.testcases.LandingPageTest.verifyMerckLogoTest(LandingPageTest.java:73)
+</failure>
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //span[@class='navbar-brandsttt']
+Home icon is not present
+Trying to find Element By : By.xpath: //span[@class='navbar-brandsttt']
+failed test case
+]]></system-out>
+  </testcase>
+</testsuite>

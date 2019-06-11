@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test STPNew Maven_Suite]">
+  <test thread-count="5" name="STP Test Cases in Maven(failed)">
+    <classes>
+      <class name="com.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="CloseConnection"/>
+          <include name="verifyMerckLogoTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LandingPageTest -->
+    </classes>
+  </test> <!-- STP Test Cases in Maven(failed) -->
+</suite> <!-- Failed suite [Test STPNew Maven_Suite] -->

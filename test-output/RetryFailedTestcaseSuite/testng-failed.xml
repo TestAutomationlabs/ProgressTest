@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RetryFailedTestcaseSuite]">
+  <listeners>
+    <listener class-name="com.qa.Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RetryMutilplefailedTestcases(failed)">
+    <classes>
+      <class name="com.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="verifyEditIconTest"/>
+          <include name="verifyHelpButtonTest"/>
+          <include name="setUp"/>
+          <include name="verifyNewProjectTest"/>
+          <include name="TearDown"/>
+          <include name="verifymoreIconTest"/>
+          <include name="CloseConnection"/>
+          <include name="verifyDuplicateIconTest"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LandingPageTest -->
+    </classes>
+  </test> <!-- RetryMutilplefailedTestcases(failed) -->
+</suite> <!-- Failed suite [RetryFailedTestcaseSuite] -->
