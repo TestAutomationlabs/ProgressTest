@@ -24,6 +24,7 @@ public class FirefoxProfileExample {
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //close firefox browser
 	driver.close();
+	System.out.println("close the browser");
 }
 
 }
